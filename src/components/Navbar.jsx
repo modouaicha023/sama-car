@@ -17,7 +17,7 @@ const NavLinks = [
         link: "/#about"
     },
     {
-        id: "1",
+        id: "4",
         name: "BOOKING",
         link: "/#booking"
     },
