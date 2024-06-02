@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import Services from "./components/Services/Services";
 import CarList from "./components/CarList/CarList";
 import ClientFeedback from "./components/ClientFeedback/ClientFeedback";
+import AppStoreSection from "./components/AppStoreSection/AppStoreSection";
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -34,13 +35,14 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bg-white dark:bg-black dark:text-white">
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero theme={theme} />
       <About />
       <Services />
-      <CarList theme={theme} />
+      <CarList />
       <ClientFeedback />
+      <AppStoreSection />
     </div>
   );
 };
