@@ -9,18 +9,21 @@ const cars = [
     price: 100,
     image: whiteCar,
     aosDelay: "0",
+    link: "#",
   },
   {
     name: "KIA UX",
     price: 140,
     image: kiaCar,
     aosDelay: "500",
+    link: "#",
   },
   {
     name: "BMW UX",
     price: 100,
     image: car6,
     aosDelay: "1000",
+    link: "#",
   },
 ];
 const CarList = () => {
@@ -56,7 +59,7 @@ const CarList = () => {
                   <h1 className="text-primary font-semibold ">{car.name}</h1>
                   <div className="flex  justify-between items-center text-xl font-semibold">
                     <p>${car.price}/Day</p>
-                    <a href={car.link}>Détails</a>
+                    <a href={car.link} cl>Détails</a>
                   </div>
                 </div>
                 <p className="text-xl font-semibold absolute top-0 left-3">

@@ -32,7 +32,7 @@ const servicesData = [
   },
 ];
 
-const Services = () => {
+const Services = ({ theme }) => {
   return (
     <div className="py-14 dark:bg-black dark:text-white">
       <div className="container">
@@ -44,15 +44,18 @@ const Services = () => {
         <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {servicesData.map((service, index) => (
             <div
-              className="card text-center group space-y-3 sm:space-y-6 p-4 sm:py-16 bg-dark hover:bg-primary duration-300 text-white hover:text-black rounded-lg"
+              className="card text-center group space-y-3 sm:space-y-6 p-4 sm:py-16 bg-dark hover:bg-primary duration-300 text-white hover:text-black rounded-lg flex gap-2 flex-col"
               key={index}
               data-aos="fade-up"
               data-aos-delay={service.aosDelay}
             >
-              <div className=" grid place-items-center">{service.icon}</div>
-              <h1 className="">{service.name}</h1>
-              <p className="">{service.description}</p>
-              <a href={service.link} className="">
+              <div className="grid place-items-center">{service.icon}</div>
+              <h1>{service.name}</h1>
+              <p>{service.description}</p>
+              <a
+                href={service.link}
+                className="dark:text-primary dark:hover:text-black"
+              >
                 Learn More
               </a>
             </div>

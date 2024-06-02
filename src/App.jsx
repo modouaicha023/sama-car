@@ -38,7 +38,7 @@ const App = () => {
       <Hero theme={theme} />
       <About />
       <Services />
-      <CarList />
+      <CarList theme={theme} />
     </div>
   );
 };
