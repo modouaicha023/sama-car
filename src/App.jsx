@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Services from "./components/Services/Services";
 import CarList from "./components/CarList/CarList";
+import ClientFeedback from "./components/ClientFeedback/ClientFeedback";
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -39,6 +40,7 @@ const App = () => {
       <About />
       <Services />
       <CarList theme={theme} />
+      <ClientFeedback />
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 import carAbout from "../../assets/car-about.png";
 const About = () => {
   return (
-    <div className="dark:bg-dark bg-slate-100 dark:text-white duration-300 sm:min-h-[600px] sm:grid sm:place-items-center  ">
+    <div className="dark:bg-dark bg-slate-100 dark:text-white duration-300 sm:min-h-[600px] sm:grid sm:place-items-center ">
       <div className="container ">
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
           <div data-aos="slide-right" data-aos-duration="1500">
@@ -12,7 +12,7 @@ const About = () => {
               alt="A nice car"
             />
           </div>
-          <div>
+          <div className="pb-10">
             <div className="space-y-5 sm:p-16">
               <h1
                 data-aos="fade-up"

@@ -18,7 +18,7 @@ const Hero = ({ theme }) => {
               className="relative -z-10 max-h-[600px] sm:scale-125 drop-shadow-[2px_20px_6px_rgba(0,0,0,0.50)]"
             />
           </div>
-          <div className="order-2 sm:order-1 space-y-5 sm:pr-32">
+          <div className="order-2 sm:order-1 space-y-5 sm:pr-32 pb-10">
             <p data-aos="fade-up" className="text-primary text-2xl font-serif">
               Effortless
             </p>
