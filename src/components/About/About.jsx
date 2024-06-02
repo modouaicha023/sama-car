@@ -1,6 +1,6 @@
 import React from "react";
 import carAbout from "../../assets/car-about.png";
-const About = ({ theme }) => {
+const About = () => {
   return (
     <div className="dark:bg-dark bg-slate-100 dark:text-white duration-300 sm:min-h-[600px] sm:grid sm:place-items-center  ">
       <div className="container ">
@@ -30,7 +30,7 @@ const About = ({ theme }) => {
               </p>
               <button
                 data-aos="fade-up"
-                className="rounded-md border-2 border-primary hover:bg-primary/80 hover:text-black duration-500 py-2 px-6 text-primary tracking-wider"
+                className="btn rounded-md border-2 border-primary hover:bg-primary/80 hover:text-black duration-500 py-2 px-6 text-primary tracking-wider"
               >
                 Get Started
               </button>
