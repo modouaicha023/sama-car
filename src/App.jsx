@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Services from "./components/Services/Services";
+import CarList from "./components/CarList/CarList";
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -37,6 +38,7 @@ const App = () => {
       <Hero theme={theme} />
       <About />
       <Services />
+      <CarList />
     </div>
   );
 };
