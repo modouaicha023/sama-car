@@ -3,22 +3,21 @@ import client from "../../assets/me.jpg";
 const feedbacks = [
   {
     name: "Fallou Diop",
-    description: "d,fjej fjfrs  dfkkdfn dfhdfd dfndhf ifeij",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     image: client,
-    aosDelay: 0
+    aosDelay: 0,
   },
   {
     name: "Fatou diallo",
-    description: "d,fjej fjfrs  dfkkdfn dfhdfd dfndhf ifeij",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     image: client,
-    aosDelay: 500
+    aosDelay: 500,
   },
   {
     name: "Waly Seck",
-    description: "d,fjej fjfrs  dfkkdfn dfhdfd dfndhf ifeij",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     image: client,
-    aosDelay: 1000
-
+    aosDelay: 1000,
   },
 ];
 const ClientFeedback = () => {

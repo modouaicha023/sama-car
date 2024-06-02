@@ -8,6 +8,7 @@ import Services from "./components/Services/Services";
 import CarList from "./components/CarList/CarList";
 import ClientFeedback from "./components/ClientFeedback/ClientFeedback";
 import AppStoreSection from "./components/AppStoreSection/AppStoreSection";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -43,6 +44,7 @@ const App = () => {
       <CarList />
       <ClientFeedback />
       <AppStoreSection />
+      <Contact />
     </div>
   );
 };
